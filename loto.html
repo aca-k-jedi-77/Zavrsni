@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./style/index.css" />
+    <link rel="stylesheet" type="text/css" href="./style/loto.css" />
+    <title>Lotto</title>
+  </head>
+  <body>
+    <div class="bg-container">
+      <header>
+        <h2>Lotto Numbers</h2>
+      </header>
+      <main>
+        <div id="lottoNumbers">
+          Suggested Lotto Numbers
+        </div>
+        <button id="lotto-button" onclick="loto7of39(); playMarbles()">
+          Shoot Numbers
+        </button>
+        <p>Try your luck!</p>
+        <form action="./lotto-draw.html" target="_blank" method="GET">
+          <button>Lotto Numbers Draw</button>
+        </form>
+        <audio id="audio" src="./media/marbles-daniel_simon.mp3"></audio>
+      </main>
+      <nav>
+        <a href="./index.html">Main</a>
+        <a href="https://www.youtube.com/watch?v=2Boq8M9H9M4"
+          >"N. Korean Fortune Cookie" (YouTube)</a
+        >
+        <a href="https://en.wikipedia.org/wiki/Fortune_cookie">Wikipedia</a>
+      </nav>
+      <footer>
+        <a href="https://validator.w3.org/check?uri=referer">
+          <img
+            src="http://www.w3.org/Icons/valid-xhtml10"
+            alt="Valid XHTML 1.0!"
+            height="31"
+            width="88"
+          />
+        </a>
+        <p>
+          Aleksandar Kolović <br />
+          FE G2 2019
+        </p>
+      </footer>
+      <script src="./script/loto.js"></script>
+    </div>
+  </body>
+</html>

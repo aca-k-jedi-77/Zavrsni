@@ -1,0 +1,9 @@
+#lottoNumbers,
+main p {
+  margin: 40px 15px;
+  font-size: 2em;
+}
+
+audio {
+  display: none;
+}
