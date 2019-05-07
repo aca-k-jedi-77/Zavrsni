@@ -49,7 +49,6 @@ header {
 
 nav {
   grid-area: n;
-  /* background-color: #b99c6b; */
   background-color: #e0c18d;
   overflow: auto;
 }
